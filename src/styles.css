@@ -6,31 +6,48 @@ body,
   font-family: Helvetica, Arial, sans-serif;
 }
 
-button {
-  background-color: magenta;
-  border: 5px solid lighten(magenta, 30%);
+.button-increment {
+  background-color: green;
+  border: 5px solid lighten(green, 30%);
   color: white;
   margin: 0 0.5em;
   padding: 1em;
   outline: none;
   &:hover {
-    background-color: darken(magenta, 5%);
+    background-color: darken(green, 5%);
   }
   &:active {
-    background-color: darken(magenta, 10%);
+    background-color: darken(green, 10%);
   }
 }
 
+.button-decrement {
+  background-color: yellow;
+  border: 5px solid lighten(yellow, 30%);
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+  &:hover {
+    background-color: darken(yellow, 5%);
+  }
+  &:active {
+    background-color: darken(yellow, 10%);
+  }
+}
+
+
 .Counters {
-  display: flex;
+  display: contents;
 }
 
 .Counter {
-  border: 5px solid lighten(magenta, 40%);
+  border: 5px solid black;
   font-weight: 700;
   margin: 2em auto;
   padding: 2em;
   width: 400px;
+  background-color:aqua;
 }
 
 .count {
